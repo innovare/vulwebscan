@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Login reNgine</title>
+  <title>Login VulWebScan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="{% static 'bootstrap/bootstrap.min.css' %}" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
   <link href="{% static 'assets/css/app.min.css' %}" rel="stylesheet" type="text/css" id="main-stylesheet" />
@@ -55,13 +55,16 @@
                     <span class="logo-lg">
                       <img src="/staticfiles/img/logo-lg.png" alt="" height="90">
                     </span>
+                    <span class="logo-lg">
+                      <img src="https://www.innovare.pe/brand/innovare-logo-primary-black.png" alt="" height="24">
+                    </span>                    
                   </a>
                 </div>
-                <h3 class="">Login to reNgine</h3>
+                <h3 class="">Login to VulWebScan</h3>
                 <p>Current release: v2.0.2</p>
               </div>
               <div class="alert alert-primary" role="alert">
-                <a href="https://rengine.wiki" target="_blank">Learn how to create reNgine account.</a>
+                <a href="https://innovare.pe" target="_blank">Help and Support.</a>
               </div>
               {% if messages %}
               <p class="">
@@ -70,7 +73,7 @@
                       {{message}}
                     </div>
                   {% endfor %}
-              <span>If you have any issues or feature request, feel free to <a href="https://github.com/yogeshojha/rengine/issues" class="text-primary">raise issue on Github.</a></span>
+              <span>If you have any issues or feature request, feel free to <a href="https://www.innovare.pe/servicio-soporte-tecnico/" class="text-primary">raise issue on Innovare.</a></span>
               </p>
               {% endif %}
               <form method="POST">
