@@ -840,8 +840,8 @@ def customize_report(request, id):
 
 @has_permission_decorator(PERM_MODIFY_SCAN_REPORT, redirect_url=FOUR_OH_FOUR_URL)
 def create_report(request, id):
-    primary_color = '#FFB74D'
-    secondary_color = '#212121'
+    primary_color = '#e95217'
+    secondary_color = '#fdebd7'
     # get report type
     report_type = request.GET['report_type'] if 'report_type' in request.GET  else 'full'
     is_ignore_info_vuln = True if 'ignore_info_vuln' in request.GET else False

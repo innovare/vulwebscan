@@ -413,8 +413,8 @@ def report_settings(request, slug):
     form = ReportForm()
     context['form'] = form
 
-    primary_color = '#FFB74D'
-    secondary_color = '#212121'
+    primary_color = '#e95217'
+    secondary_color = '#fdebd7'
 
     report = None
     if VulnerabilityReportSetting.objects.all().exists():
