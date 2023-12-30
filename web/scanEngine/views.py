@@ -305,9 +305,9 @@ def notification_settings(request, slug):
 
         if form.is_valid():
             form.save()
-            send_slack_message('*reNgine*\nCongratulations! your notification services are working.')
-            send_telegram_message('*reNgine*\nCongratulations! your notification services are working.')
-            send_discord_message('**reNgine**\nCongratulations! your notification services are working.')
+            send_slack_message('*VulWebScan*\nCongratulations! your notification services are working.')
+            send_telegram_message('*VulWebScan*\nCongratulations! your notification services are working.')
+            send_discord_message('**VulWebScan**\nCongratulations! your notification services are working.')
             messages.add_message(
                 request,
                 messages.INFO,

@@ -10,9 +10,9 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="reNgine API",
+      title="VulWebScan API",
       default_version='v1',
-      description="reNgine: An Automated reconnaissance framework.",
+      description="VulWebScan: An Automated reconnaissance framework.",
       contact=openapi.Contact(email="yogesh.ojha11@gmail.com"),
    ),
    public=True,

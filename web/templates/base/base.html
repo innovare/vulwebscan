@@ -158,7 +158,7 @@
         }
         else{
           Swal.fire({
-            title: 'Checking reNgine latest version...',
+            title: 'Checking VulWebScan latest version...',
             allowOutsideClick: false
           });
           swal.showLoading();
@@ -186,7 +186,7 @@
               $('.rengine_update_available').hide();
               Swal.fire({
                 title: 'Update not available',
-                text: 'You are running the latest version of reNgine!',
+                text: 'You are running the latest version of VulWebScan!',
                 icon: 'info'
               });
             }
@@ -197,7 +197,7 @@
       function update_available(latest_version_number, changelog){
         Swal.fire({
           title: 'Update Available!',
-          html: `<h5>reNgine's new update ${latest_version_number} is available, please follow the update instructions.</h5><pre>${changelog}</pre>`,
+          html: `<h5>VulWebScan's new update ${latest_version_number} is available, please follow the update instructions.</h5><pre>${changelog}</pre>`,
           icon: 'info',
           confirmButtonText: 'Update Instructions',
           showCancelButton: true,
